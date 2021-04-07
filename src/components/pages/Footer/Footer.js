@@ -9,17 +9,17 @@ import {
   FaTwitter,
   FaLinkedin
 } from 'react-icons/fa';
-import { MdFingerprint } from 'react-icons/md';
+import { BiBody } from 'react-icons/bi';
 
 function Footer() {
   return (
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Sign up to get the lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+          Subscribe to learn more about our lightweight SDK, built-in custom realtime renderer, and multiple solver options
         </p>
         <p className='footer-subscription-text'>
-          Unsubscribe lorem ipsum lorem ipsum 
+          We'll never sell your info, and unsubscribing is easy 
         </p>
         <div className='input-areas'>
           <form>
@@ -72,11 +72,11 @@ function Footer() {
         <div className='social-media-wrap'>
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
-              <MdFingerprint className='navbar-icon' />
+              <BiBody className='navbar-icon' />
               Body Tracking 3D
             </Link>
           </div>
-          <small className='website-rights'>Body Tracking 3D © 2021</small>
+          <small className='website-rights'>Image Metrics © 2021</small>
           <div className='social-icons'>
             <Link
               className='social-icon-link'

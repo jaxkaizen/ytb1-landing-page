@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import { MdFingerprint} from 'react-icons/md'
+import { BiBody } from 'react-icons/bi'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import { link } from 'fs';
 import { Button } from './Button';
@@ -32,7 +32,7 @@ function Navbar() {
         <div className="navbar">
           <div className="navbar-container container">
             <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-              <MdFingerprint className="navbar-icon" />
+              <BiBody className="navbar-icon" />
               Body Tracking 3D
             </Link>
             <div className="menu-icon" onClick={ handleClick }>
