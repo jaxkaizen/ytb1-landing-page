@@ -1,4 +1,19 @@
 export const homeObjOne = {
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: 'Image Metrics AR',
+  headline: 'Introducing our Real-Time 3D Body Tracking',
+  list: [
+    'Empowers users to create the most unique short video content',
+    'Create compelling AR gaming experiences'
+  ],
+  buttonLabel: 'Find Out More',
+  imgStart: '',
+  video: 'Videos/0001-0183.mp4'
+}
+
+export const homeObjTwo = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
@@ -6,28 +21,14 @@ export const homeObjOne = {
   headline: 'RealTime Tracking',
   description: 'Image Metrics body tracking technology runs real-time on a wide variety of mobile devices on both iOS and Android platforms. There is no requirement for special hardware.  ',
   buttonLabel: 'Learn More',
-  imgStart: '',
-  img: 'images/logo_opt.png',
-  alt: 'Image Desc'
-}
-
-export const homeObjTwo = {
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
-  topLine: 'Title Here',
-  headline: 'Lorem Ipsum blah balh loren ipsum',
-  description: 'Lorem ipsump lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum ',
-  buttonLabel: 'Learn More Now',
   imgStart: 'start',
-  img: 'images/city-building-hologram.svg',
-  alt: 'Image Desc'
+  video: 'Videos/spinningLogo.mp4'
 }
 
 export const homeObjThree = {
-  lightBg: true,
-  lightText: false,
-  lightTextDesc: false,
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
   topLine: 'Image Metrics AR',
   headline: 'Unmatched Quality',
   description: 'Highest Fidelity Tracking Available ',
@@ -43,9 +44,9 @@ export const homeObjThree = {
 }
 
 export const homeObjFour = {
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
   topLine: '',
   headline: 'Robustness is Our Middle Name',
   list: [
